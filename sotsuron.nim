@@ -9,4 +9,4 @@ let deadline = TimeInfo(
 let diff = deadline.toTime() - now.toTime()
 let diff_interval: TimeInterval = initInterval(seconds=int(diff))
 
-echo "(ﾟ∀ﾟ) 卒論提出まであと", diff_interval.days, "日と", diff_interval.hours, "時間だよ"
+echo "卒論提出まで", diff_interval.days, "d", diff_interval.hours, "h"
